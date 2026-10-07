@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "feed_version": "1.3.0",
+  "channel": "stable",
+  "apps": [
+    {
+      "id": "flight-copilot",
+      "version": "1.0.0",
+      "package_b64_url": "https://raw.githubusercontent.com/m93b2030/runway22-updates/main/packages/FlightCopilot_1.0.0.zip.b64",
+      "sha256": "971FCC63B7321772CA5C0B8558DA699DDF4C14A8D9599670CAC9E542440F44B3",
+      "changelog": [
+        "Initial GitHub-managed release",
+        "Flight Phase and Smart Checklist",
+        "Approach Assistant and Landing Rating",
+        "Optional ATC Copilot bridge"
+      ]
+    },
+    {
+      "id": "atc-copilot",
+      "version": "2.1.0",
+      "package_b64_url": "https://raw.githubusercontent.com/m93b2030/runway22-updates/main/packages/ATCCopilot_2.1.0.zip.b64",
+      "sha256": "06E17147B5B7B994BF4D642B548AC864FF4FB03F2C7AC9C283963CCAEFE5A488",
+      "status": "available",
+      "entry": "main.py",
+      "bundled_path": "packages\\atc-copilot\\2.1.0\\app",
+      "changelog": [
+        "ATC Copilot is now managed by Runway 22",
+        "BeyondATC / IVAO-style speech-to-text readback assistant",
+        "Local Whisper model download progress, saved settings and logs"
+      ]
+    }
+  ]
+}
